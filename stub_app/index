@@ -1,0 +1,18 @@
+import Web3 from 'web3'
+import ContractFactory from './ContractFactory'
+import { BlockchainNetworkId, VoteStatus } from './types'
+import { SendOptions } from 'web3-eth-contract'
+import * as BN from 'bn.js'
+
+
+export default class ####APP_NAME#### {
+  readonly contracts: ContractFactory
+
+  constructor(readonly web3: Web3, networkId: BlockchainNetworkId) {
+    this.contracts = new ContractFactory(web3, networkId)
+
+    // TODO: Api implementation
+  }
+}
+
+export * from './types';

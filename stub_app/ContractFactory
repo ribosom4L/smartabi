@@ -1,0 +1,11 @@
+import Web3 from 'web3'
+import { BlockchainNetworkId } from './types'
+####CONTRACT_IMPORTS####
+
+export default class ContractFactory {
+  ####CONTRACT_DEFINITIONS####
+
+  constructor(web3: Web3, chainId: BlockchainNetworkId) {
+    ####CONSTRUCTOR_ASSIGNEMNT####
+  }
+}
